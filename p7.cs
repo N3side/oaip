@@ -15,7 +15,7 @@ namespace p7
         {
             char l = 'f';
 
-            bool isHex = "0123456789ABCDEFabcdef".Contains(l);
+            bool isHex = "0123456789ABCDEFabcdef".Contains(l); //
 
             Console.WriteLine(isHex ? "Да" : "Нет");
 
