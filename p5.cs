@@ -136,13 +136,7 @@ namespace HelloWorld
             total += arr[i];
         }
         
-        Console.Write($"
-			типа json
-        	'avg': '{total / arr.Length}',
-            'fives': '{fives}',
-            'deuces': '{deuces}',
-            'max': '{arr.Max()}'
-        ");
+        Console.Write($" типа json 'avg': '{total / arr.Length}', 'fives': '{fives}', 'deuces': '{deuces}', 'max': '{arr.Max()}'");
         
         return 1;
     }
@@ -166,13 +160,7 @@ namespace HelloWorld
             total += arr[i];
         }
         
-        Console.Write($"
-			типа json
-        	'total': '{total}',
-            'less200': '{less200}',
-            'max': '{arr.Max()}',
-            'more500': '{Math.Round((double)more500 / arr.Length * 100, 2)}%'
-        ");
+        Console.Write($" типа json 'total': '{total}', 'less200': '{less200}', 'max': '{arr.Max()}', 'more500': '{Math.Round((double)more500 / arr.Length * 100, 2)}%'");
         
         return 1;
     }
